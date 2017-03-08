@@ -19,7 +19,8 @@ DEALINGS IN THE SOFTWARE.
 
 (function(window){
 
-  var WORKER_PATH = 'js/recorderjs/recorderWorker.js';
+  // var WORKER_PATH = 'js/recorderjs/recorderWorker.js';
+  var WORKER_PATH = 'https://rawgit.com/habibimustafa/nodered-voicebot/master/js/recorderjs/recorderWorker.js';
 
   var Recorder = function(source, cfg){
     var config = cfg || {};
